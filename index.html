@@ -10,6 +10,7 @@
     url = 'https://script.google.com/macros/s/AKfycbyu-o4jkTVMr2PfEtFCNApnm5W7O2SdP1whu5CmwJNZpwrNM4i_CIEFqmsRj_rOpCYwtQ/exec'
 
 $('#submit-form').on('click', function(e) {
+  console.log($form)
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
