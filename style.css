@@ -2612,8 +2612,8 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../5ffd8c717c8fff5f3265ef1e_%5b2%5dimg_home_hero_bg.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://assets.website-files.com/5ffda4cd9a632502ce06ccc1/5ffe6ed5c34c36730a4313dc_%5B6%5Dthumb_category_1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url("./images/hero-image.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("./images/hero-image.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
