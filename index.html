@@ -328,22 +328,13 @@
   
     form.addEventListener('submit', e => {
       e.preventDefault()
+      
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => $('success').show())
-        .catch(error => console.error('Error!', error.message))
+        .then(response => document.getElementById("email-form-2").reset(),alert("Request sent successfully! We will contact you within 24 hours."))
+        .catch(error => document.getElementById("email-form-2").reset() ,alert(error.message), console.error('Error!', error.message))
     })
   </script>
-<script src="https://min30327.github.io/luxy.js/dist/js/luxy.js"></script>
-        <script charset="utf-8">
-            var isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent);
-            if (!isMobile) {
-                luxy.init({
-                    wrapper: '#luxy',
-                    wrapperSpeed: 0.065,
 
-                });
-            }
-        </script>
      
   </body>
 
